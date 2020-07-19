@@ -14,7 +14,7 @@ body{
 	padding-top: 15px;
 }
 
-.navbar-brand h1{ 
+.navbar-brand h1{ /**Brand-name**/
 	margin-left: 30px;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -29,11 +29,10 @@ body{
   text-decoration: none;
 }
 
-.navbar-header button{
+.navbar-header button{  /**Dropdown button**/
 	margin-top: 30px;
 }
-
-#nav-list{
+#nav-list{    
 	margin-top: 0px;
 	background-color:	 #400080;
 	border:2px solid black;
@@ -64,7 +63,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 }
-#main-content h2{
+#main-content h2{   /**Main content title**/
 	color: #990033;
 	font-weight: bold;
 }
@@ -72,13 +71,13 @@ body{
 
 
 section.desc{
-	height: 800px;
+	height: 1500px;
 	background-color:#248f8f;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.para-heading{
+.para-heading{  /**Chicken**/
 	color: #f9ecf2;
 }
 .desc p{
@@ -107,7 +106,7 @@ section.desc{
 
 @media (max-width: 767px){
 	section.desc{
-		height: 1000px;
+		height: 100%;
 		width: 90%;
 		margin-right: 45px;
 		margin-left: 30px;
@@ -119,7 +118,7 @@ section.desc{
 
 @media (max-width: 375px){
 	section.desc{
-		height: 1000px;
+		height: 100%;
 		width: 80%;
 		margin-right: 40px;
 		margin-left: 35px;
