@@ -106,7 +106,6 @@ section.desc{
 
 @media (max-width: 767px){
 	section.desc{
-		height: 100%;
 		width: 90%;
 		margin-right: 45px;
 		margin-left: 30px;
